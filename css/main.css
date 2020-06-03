@@ -33,6 +33,11 @@ body {
     text-decoration: none;;
 }
 
+.unauthlittle {
+    font-size: 10px;
+    font-style: italic;
+}
+
 #discord i {
     color: #fff;
     font-size: 18px;
