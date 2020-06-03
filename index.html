@@ -10,9 +10,6 @@
 <style>
 
 body {
-
-	background-image: url('grunge_patterns.jpg');
-	background-attachment: fixed;
 	color: #333;
 }
 
@@ -93,7 +90,8 @@ div.vertical {
 
 		var hash= pwd;
 		hash= Sha1.hash(pwd);
-		var url= hash + "/index.html";
+        var url = ''
+		if(hash == 'a627a5e3891c8d9e419cce85a1ae166537504d09') url= "dev/index.html";
 
 		$.ajax({
 			url : url,
